@@ -12,4 +12,8 @@ class IndexController extends Controller
     public function indexAction() {
         echo "This is indexAction";
     }
+
+    public function testAction() {
+        echo "This is testAction";
+    }
 }
